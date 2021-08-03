@@ -1,0 +1,16 @@
+#list = [
+#[["127.0.0.1:8080", "fsdsf"], 1],
+#[["127.0.0.1:8080", "ggfgd"], 2],
+#[["127.0.0.1:8080", "dggdg"], 3]
+#]
+
+[[list]]
+data = ["127.0.0.1:8080", "dgdff"]
+replicas = 2
+[[list]]
+data = ["127.0.0.1:8080", "fgfdgdfg"]
+replicas = 1
+
+[[list]]
+data = ["127.0.0.1:8080", "string"]
+replicas = 3
